@@ -1,0 +1,56 @@
+.mat-dialog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #fff;
+    /* White background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+.mat-dialog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+    /* Dark text color */
+}
+
+.mat-dialog-content {
+    width: 100%;
+}
+
+.mat-form-field {
+    width: 100%;
+    margin-bottom: 24px;
+    /* Increase spacing between form fields */
+}
+
+.mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.mat-dialog-actions button {
+    margin-left: 8px;
+    padding: 12px 24px;
+    /* Increase button padding */
+    font-size: 16px;
+    /* Larger button text */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    transition: background-color 0.3s;
+    /* Smooth hover transition */
+}
+
+.mat-dialog-actions button:hover {
+    background-color: #007bff;
+    /* Darker background color on hover */
+    color: #fff;
+    /* Light text color on hover */
+}

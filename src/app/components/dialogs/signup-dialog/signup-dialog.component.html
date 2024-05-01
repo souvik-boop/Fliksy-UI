@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>Sign Up</h2>
+<form (ngSubmit)="onSubmit()">
+  <mat-dialog-content class="signup-dialog-content">
+    <mat-form-field class="signup-form-field">
+      <input matInput type="email" placeholder="Email" [(ngModel)]="email" name="email" required>
+    </mat-form-field>
+    <mat-form-field class="signup-form-field">
+      <input matInput type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions class="signup-dialog-actions">
+    <button mat-flat-button color="primary" type="submit">Submit</button>
+  </mat-dialog-actions>
+</form>
